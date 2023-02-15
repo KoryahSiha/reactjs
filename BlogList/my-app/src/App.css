@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: bisque;
+  text-align: center;
+}
+
+.blogs-card {
+  min-width: 200px;
+  width: 20%;
+}
+
+.blogs-card__title {
+  color: rgb(26, 181, 129);
+  height: 35px;
+}
+
+.blogs-card__summary {
+  height: 100px;
+}
+
+:link {
+  text-decoration: none;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: antiquewhite;
+}
+
+.blog-card__page {
+  background-color: rgb(247, 235, 156);
+  margin: 50px;
+  padding: 20px;
+}
+
+
+.blog-card__articleNumber {
+  color: rgb(176, 57, 176);
+  text-align: center;
+}
+
+.blog-card__title {
+  color: rgb(233, 173, 64);
+  text-align: center;
+}
+
+.blog-card__summary {
+  text-align: center;
+  color: black;
+}
+
+.profile-card__page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: aqua;
+  margin: 20px;
+  padding: 20px;
+}
+
+.profile-card__username {
+  color: rgb(11, 119, 234);
+}
+
+.profile-card__avatar {
+  width: 150px;
+  height: 150px;
+}
