@@ -1,0 +1,23 @@
+.card {
+    width: 60%px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(134, 18, 128);
+}
+
+.card__title {
+    color: rgb(255, 172, 172);
+    font-size: 21px;
+}
+
+.card__description {
+    color: white;
+    width: 70%;
+}
+
+.card__image {
+    width: 70%;
+}

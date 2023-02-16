@@ -1,0 +1,13 @@
+.task__list {
+    width: 40%;
+    padding: 20px;
+    background-color: rgb(200, 255, 170);
+}
+
+.task__title {
+    color: rgb(245, 165, 46);
+}
+
+.task__item {
+    font-style: italic;
+}
